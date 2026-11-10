@@ -1,0 +1,9 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+numpy==2.5.4
+scipy==1.18.1
+Pillow==12.3.0
+ifcopenshell==0.8.5
+shapely==2.2.0
+httpx==0.28.1
+python-multipart==0.0.32

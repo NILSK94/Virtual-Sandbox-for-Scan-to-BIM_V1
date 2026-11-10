@@ -1,0 +1,9 @@
+[project]
+name = "scanbim-studio"
+version = "0.3.0"
+description = "Local experimental visual Scan-to-BIM workbench"
+requires-python = ">=3.12,<3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

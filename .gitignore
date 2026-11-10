@@ -1,0 +1,34 @@
+.venv/
+data/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+*.local.toml
+settings.toml
+private/
+secrets/
+*.pyc
+
+# Keep the credential-free template available.
+!settings.example.keys.local.toml
+
+# Generated experiments and media; retain the Docker runtime sources.
+/sandbox/*
+!/sandbox/Dockerfile
+!/sandbox/worker.py
+/examples/*-run/
+
+# Development and build output.
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+*.zip
+.DS_Store
+Thumbs.db

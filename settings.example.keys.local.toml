@@ -1,0 +1,8 @@
+# Vorlagendatei. Hier KEINEN echten Schlüssel eintragen.
+# API-Einstellungen.bat öffnet die separate lokale Datei unter
+# %LOCALAPPDATA%\ScanBIM-Studio\settings.toml.
+# Nach dem Speichern die Studio-Seite neu laden.
+
+[openai]
+api_key = ""
+model = "gpt-6.1-sol"

@@ -1,0 +1,12 @@
+# Vorlage für die lokale settings.toml. Schlüssel in den KI-Einstellungen speichern.
+[studio]
+provider = "openai"
+
+[openai]
+api_key = ""
+model = ""
+
+[claude]
+api_key = ""
+model = ""
+
